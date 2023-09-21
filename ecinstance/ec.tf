@@ -7,11 +7,11 @@ terraform {
 }
 provider "aws" {
     region = "ap-northeast-1"
-    access_key = ""
+    access_key = "AKIA2SACZ4LTDR4WR6WI"
     secret_key = ""
 }
 resource "aws_instance" "exam" {
-    ami = ""
+    ami = "ami-0ed99df77a82560e6"
     instance_type = "t2.micro"
 }
 output "public_ip"{
